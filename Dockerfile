@@ -1,5 +1,5 @@
-# 使用 Debian Slim 作为基础镜像
-FROM debian:slim
+# 使用 Debian stable-slim 作为基础镜像
+FROM debian:stable-slim
 
 # 安装必要的工具
 RUN apt-get update && \
