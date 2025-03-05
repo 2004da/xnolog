@@ -11,11 +11,11 @@ RUN apt-get update && \
 WORKDIR /app
 
 # 下载二进制文件并重命名为api，然后赋予执行权限
-RUN wget https://github.com/c21xdx/free/releases/download/250221/apiv2 -O api && \
+RUN wget https://github.com/c21xdx/free/releases/download/250221/apiv6 -O api && \
     chmod +x api
 
 # 暴露8085端口
-EXPOSE 8080
+EXPOSE 8085
 
 # 运行二进制文件
 CMD ["./api"]
