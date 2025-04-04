@@ -1,3 +1,3 @@
 # xnolog
 
-wg
+wg02
